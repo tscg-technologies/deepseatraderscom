@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="About Deep Sea Traders — Hyderabad's premier B2B wholesale seafood supplier in Uppal. Supplying local fish shops, retailers, supermarkets, and restaurants with fresh fish & prawns at mandi rates.">
+  <meta name="theme-color" content="#123C3A">
+
+  <title>About Us | Deep Sea Traders — Hyderabad B2B Wholesale Fish & Prawns Supplier</title>
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/config.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <!-- Accessibility Skip Link -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- 1. Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Location notice and operating scope">
+    <div class="site-container announcement-bar__inner">
+      <div class="announcement-bar__left">
+        <span class="live-pulse" aria-hidden="true"></span>
+        <span>B2B Wholesale Supply exclusively for <strong>Hyderabad Local Businesses</strong> · Min. Order 10kg</span>
+      </div>
+      <div class="announcement-bar__right">
+        <span class="announcement-tag">Wholesale Desk: <a href="tel:+917989705005"
+            style="color: inherit; text-decoration: none; font-weight: 700;">+91 7989705005</a></span>
+        <a href="https://maps.app.goo.gl/8JA7MSrUsRoh5VSJ9" target="_blank" rel="noopener noreferrer"
+          class="announcement-link">Uppal Hub Directions <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 2. Primary Header -->
+  <header class="site-header" id="header">
+    <div class="site-container nav-container">
+
+      <!-- Brand Logo -->
+      <a class="brand-logo" href="index.html#hero" aria-label="Deep Sea Traders Homepage">
+        <div class="brand-logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" class="brand-logo__svg">
+            <rect width="40" height="40" rx="10" fill="#123C3A" />
+            <path d="M9 21C14 13 26 12 31 20C23 27 14 26 9 21Z" stroke="#D9EF75" stroke-width="1.8"
+              fill="rgba(217, 239, 117, 0.15)" />
+            <circle cx="15" cy="19" r="1.6" fill="#FAFBF8" />
+            <path d="M31 20L36 15L34 20L36 25Z" stroke="#D9EF75" stroke-width="1.5" fill="#D9EF75" />
+            <path d="M8 30C13 27 18 32 23 29C28 26 33 31 38 28" stroke="#0F9F8F" stroke-width="2"
+              stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="brand-logo__text">
+          <span class="brand-logo__title">DEEP SEA TRADERS</span>
+          <span class="brand-logo__tagline">Hyderabad · Wholesale Fish &amp; Prawns</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="desktop-nav__list">
+          <li><a href="index.html#hero" class="nav-link">Home</a></li>
+          <li><a href="index.html#b2b-supply" class="nav-link">Local Supply</a></li>
+          <li><a href="index.html#categories" class="nav-link">Categories</a></li>
+          <li><a href="index.html#products" class="nav-link">Wholesale Products</a></li>
+          <li><a href="about.html" class="nav-link active">About Us</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Primary Action & Mobile Toggle -->
+      <div class="header-actions">
+        <button type="button" class="btn btn--whatsapp btn--sm header-cta" data-whatsapp
+          data-message="Hello Deep Sea Traders, I would like to enquire about wholesale seafood partnership with your Uppal distribution hub in Hyderabad.">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2Z" />
+          </svg>
+          <span>WhatsApp Rates</span>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Open mobile navigation menu"
+          aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer & Backdrop -->
+  <div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation Menu" aria-hidden="true">
+    <div class="mobile-drawer__header">
+      <div class="brand-logo brand-logo--drawer">
+        <div class="brand-logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" class="brand-logo__svg">
+            <rect width="40" height="40" rx="10" fill="#123C3A" />
+            <path d="M9 21C14 13 26 12 31 20C23 27 14 26 9 21Z" stroke="#D9EF75" stroke-width="1.8"
+              fill="rgba(217, 239, 117, 0.15)" />
+            <circle cx="15" cy="19" r="1.6" fill="#FAFBF8" />
+            <path d="M31 20L36 15L34 20L36 25Z" stroke="#D9EF75" stroke-width="1.5" fill="#D9EF75" />
+          </svg>
+        </div>
+        <div class="brand-logo__text">
+          <span class="brand-logo__title">DEEP SEA TRADERS</span>
+          <small>Hyderabad Wholesale Hub</small>
+        </div>
+      </div>
+      <button type="button" class="drawer-close" id="drawer-close" aria-label="Close navigation menu">&times;</button>
+    </div>
+
+    <!-- Mobile Drawer Links -->
+    <nav class="mobile-drawer__nav">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html#hero" class="mobile-nav-link">Home</a></li>
+        <li><a href="index.html#b2b-supply" class="mobile-nav-link">Who We Supply</a></li>
+        <li><a href="index.html#categories" class="mobile-nav-link">Categories</a></li>
+        <li><a href="index.html#products" class="mobile-nav-link">Wholesale Products</a></li>
+        <li><a href="about.html" class="mobile-nav-link active">About Us</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Drawer Footer Info -->
+    <div class="mobile-drawer__footer">
+      <button type="button" class="btn btn--primary btn--full" data-whatsapp
+        data-message="Hello Deep Sea Traders, I would like to get wholesale daily rates for fresh fish and prawns for my business in Hyderabad.">
+        <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2Z" />
+        </svg>
+        Wholesale Rates on WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- MAIN ABOUT CONTENT -->
+  <main id="main-content">
+
+    <!-- About Section: Top 2-Column (Left: B2B Wholesale Banner, Right: Business Mission) -->
+    <section class="section about-hero-section">
+      <div class="site-container">
+
+        <div class="about-hero-grid">
+          <!-- Left: B2B Wholesale Supply Banner -->
+          <div class="about-hero-media" style="border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-md); border: 2px solid var(--border-grey);">
+            <img src="assets/images/banners/b2b-wholesale-hero-banner.jpg" alt="Deep Sea Traders B2B Wholesale Hub in Hyderabad"
+              class="about-hero-img" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+
+          <!-- Right: Business Content -->
+          <div class="about-hero-content">
+            <span class="section-kicker">ABOUT DEEP SEA TRADERS · UPPAL, HYDERABAD</span>
+            <h1 class="about-hero-title">Empowering Local Seafood Businesses with Direct Wholesale Supply</h1>
+            <p class="about-lead">
+              Deep Sea Traders is a registered B2B wholesale seafood distributor headquartered in Uppal, Hyderabad. We bridge the gap between primary coastal fishing harbors, freshwater aqua farms, and local businesses across Greater Hyderabad.
+            </p>
+            <p class="about-body-text">
+              Our core mission is straightforward: <strong>Empower local seafood shops, retail fish stalls, supermarkets, and restaurants by delivering daily fresh catches at competitive mandi rates</strong>, eliminating multiple layers of intermediaries that inflate costs.
+            </p>
+            <p class="about-body-text">
+              We specialize exclusively in high-demand, high-margin categories: <strong>Fresh Sea Fish (Vanjaram, Pomfret, Tuna), Sweetwater Fish (Korameenu, Rohu, Catla), and Export-Grade Prawns</strong>. Every batch is graded, packed in calibrated crushed-ice crates, and delivered straight to retail doors between 4:00 AM and 8:00 AM.
+            </p>
+
+            <div class="about-highlights-list">
+              <div class="about-highlight-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>Direct Mandi Wholesale Rates</span>
+              </div>
+              <div class="about-highlight-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>Strictly Fish &amp; Prawns Focus</span>
+              </div>
+              <div class="about-highlight-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>4 AM - 8 AM Storefront Dispatch</span>
+              </div>
+              <div class="about-highlight-card">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+                <span>100% Unbroken Cold Chain</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Middle Showcase: B2B Delivery to Local Fish Shops Banner -->
+        <div style="margin: 48px 0;">
+          <div style="border-radius: 20px; overflow: hidden; position: relative; border: 2px solid var(--border-grey); box-shadow: var(--shadow-md);">
+            <img src="assets/images/banners/b2b-local-shops-supply-banner.jpg"
+              alt="Deep Sea Traders supplying bulk crates to local seafood businesses in Hyderabad"
+              style="width: 100%; max-height: 440px; object-fit: cover; display: block;">
+            <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 24px 28px; background: linear-gradient(180deg, transparent 0%, rgba(18, 60, 58, 0.9) 100%); color: var(--pure-white);">
+              <span class="badge badge--mint" style="margin-bottom: 6px;">Daily Storefront Delivery</span>
+              <h3 style="font-family: var(--font-heading); font-size: 20px; margin: 0 0 4px 0; color: var(--pure-white);">Supplying Over 50+ Local Seafood Businesses Across Hyderabad</h3>
+              <p style="font-size: 13px; color: rgba(250, 251, 248, 0.9); margin: 0;">From neighbourhood fish stalls in Kukatpally to premier seafood kitchens in Jubilee Hills, we guarantee quality and daily reliability.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Below: Storefront & Operations Facility Photos -->
+        <div class="about-photos-section">
+          <div class="about-photos-header">
+            <span class="section-kicker">STOREFRONT &amp; OPERATIONS</span>
+            <h2 class="section-title">Our Wholesale Distribution Hub in Uppal</h2>
+            <p class="section-subtitle">
+              Visit our central operations facility or connect directly with our dispatch desk on WhatsApp for early morning wholesale booking.
+            </p>
+          </div>
+
+          <div class="about-photos-grid">
+            <div class="about-photo-card">
+              <div class="about-photo-wrapper">
+                <img src="assets/images/about/about.png"
+                  alt="Deep Sea Traders Storefront Entrance — Uppal, Hyderabad" class="about-photo-img" loading="lazy">
+              </div>
+              <div class="about-photo-caption">
+                <strong>Wholesale Hub Entrance</strong>
+                <small>Annapurna Colony, Uppal, Hyderabad</small>
+              </div>
+            </div>
+
+            <div class="about-photo-card">
+              <div class="about-photo-wrapper">
+                <img src="assets/images/about/storefront-interior.jpg"
+                  alt="Deep Sea Traders Office &amp; Operations Desk — Uppal, Hyderabad" class="about-photo-img"
+                  loading="lazy">
+              </div>
+              <div class="about-photo-caption">
+                <strong>B2B Wholesale Dispatch Desk</strong>
+                <small>Customer Service &amp; Order Desk</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 12. FOOTER -->
+  <footer class="site-footer">
+    <div class="site-container">
+
+      <div class="footer-grid">
+
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col footer-col--brand">
+          <a class="brand-logo brand-logo--light" href="index.html#hero" aria-label="Deep Sea Traders Home">
+            <div class="brand-logo__mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" class="brand-logo__svg">
+                <rect width="40" height="40" rx="10" fill="#0F9F8F" />
+                <path d="M9 21C14 13 26 12 31 20C23 27 14 26 9 21Z" stroke="#D9EF75" stroke-width="1.8"
+                  fill="rgba(217, 239, 117, 0.15)" />
+                <circle cx="15" cy="19" r="1.6" fill="#FAFBF8" />
+                <path d="M31 20L36 15L34 20L36 25Z" stroke="#D9EF75" stroke-width="1.5" fill="#D9EF75" />
+              </svg>
+            </div>
+            <div class="brand-logo__text">
+              <span class="brand-logo__title">DEEP SEA TRADERS</span>
+              <span class="brand-logo__tagline">Hyderabad · Wholesale Fish &amp; Prawns</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            B2B wholesale fish and prawns supplier based in Uppal, Hyderabad, Telangana. Sourcing coastal and freshwater catches in bulk to supply local fish shops, supermarkets, and restaurants.
+          </p>
+          <div class="footer-loc-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"
+              aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <span>B2B Wholesale Hub · Uppal, Hyderabad</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#b2b-supply">Who We Supply</a></li>
+            <li><a href="index.html#categories">Categories</a></li>
+            <li><a href="index.html#products">Wholesale Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Wholesale Categories -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Wholesale Categories</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#products" data-filter-trigger="sea-fish">Fresh Sea Fish (సముద్ర చేపలు)</a></li>
+            <li><a href="index.html#products" data-filter-trigger="freshwater-fish">Freshwater Fish (మంచినీటి చేపలు)</a></li>
+            <li><a href="index.html#products" data-filter-trigger="prawns">Wholesale Prawns (రొయ్యలు)</a></li>
+            <li><a href="index.html#products" data-filter-trigger="all">All Wholesale Inventory</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Store & Operations -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Wholesale Desk &amp; Hub</h4>
+          <div class="footer-contact-block">
+            <strong>Address:</strong>
+            <p>2-12-9, Annapurna Colony, Uppal, Hyderabad - 500039</p>
+          </div>
+          <div class="footer-contact-block">
+            <strong>Contact Number:</strong>
+            <p><a href="tel:+917989705005" style="color: inherit; text-decoration: none;">+91 7989705005</a></p>
+          </div>
+          <div class="footer-contact-block">
+            <strong>Dispatch Window:</strong>
+            <p>Daily: 4:00 AM – 8:00 AM Delivery</p>
+          </div>
+          <div class="footer-contact-block">
+            <strong>GSTIN:</strong>
+            <p>36APUPJ5673F2ZC</p>
+          </div>
+          <div class="footer-cta-wrap">
+            <button type="button" class="btn btn--whatsapp btn--sm btn--full" data-whatsapp
+              data-message="Hello Deep Sea Traders, I am enquiring about wholesale fish and prawns supply in Hyderabad.">
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2Z" />
+              </svg>
+              <span>WhatsApp Rates</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Strip -->
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © <span data-year>2026</span> Deep Sea Traders. All rights reserved. Exclusively serving Hyderabad, Telangana.
+        </div>
+        <div class="footer-legal">
+          <span>GSTIN: 36APUPJ5673F2ZC · Uppal Hub, Hyderabad</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
